@@ -1,0 +1,6 @@
+<div class="jumbotron">
+<h2>Hello World1, from <%=  @myparams["pidor"] == "true" %>!</h2>
+<%= if  @myparams["pidor"] == "true" do %>
+  <h2>Hello World, from <%=  @myparams["message"] %>!</h2>
+ <%  end %>
+</div>
